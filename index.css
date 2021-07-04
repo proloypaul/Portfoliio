@@ -20,6 +20,7 @@ span{
 }
 .welcome p{
     margin-top: 50px; 
+    padding-right:40px;
     width: auto;
 }
 a{
@@ -33,9 +34,33 @@ a{
 }
 .welcome img{
     padding:10px;
-    border: 5px solid crimson;
+    border: 5px outset purple;
     border-radius: 50%;
     width:auto;
+    background-color:orangered;
     /* margin-left:50px; */
+
+}
+
+.welcome_two{
+    display:flex;
+    background-image:url(section1-removebg-preview.png);
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    background-position:center;
+}
+p{
+    padding-left: 50px;
+}
+.welcome_two img{
+    border: 5px inset purple; 
+    border-radius:50%;
+    background-color:orangered;
     
 }
+.welcome_two p{
+    width: 60%;
+    margin-top:100px;
+}
+
+
